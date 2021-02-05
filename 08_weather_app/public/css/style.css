@@ -1,0 +1,142 @@
+/*
+  Styles from this codepen:
+  https://codepen.io/official_naveen/pen/rgknI
+*/
+
+body {
+  /*width: 800px;*/
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  width: auto;
+  margin: 0 auto;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* display: block; */
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-before: 0em;
+  -webkit-padding-start: 0em;
+  -webkit-padding-end: 0em;
+  -webkit-padding-after: 0em;
+  border: 0px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  min-width: -webkit-min-content;
+  padding: 30px;
+}
+.ghost-input, p {
+  display: block;
+  font-weight:300;
+  font-size: 25px;
+  border:0px;
+  outline: none;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #4b545f;
+  background: #fff;
+  font-family: Open Sans,Verdana;
+  padding: 10px 15px;
+  margin: 30px auto;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.ghost-input{
+  border-bottom:1px solid #ddd;
+  max-width: 390px;
+  min-width: 350px;
+}
+.ghost-input:focus::placeholder{
+  color: #fff;
+  text-align: center;
+}
+.ghost-input:focus {
+  background-color: #614fff;
+  color: #fff;
+}
+.ghost-button {
+  background-color: transparent;
+  border:2px solid #614fff;
+  padding:10px 30px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 390px;
+  min-width: 350px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.ghost-button:hover {
+  border: 2px solid #614fff;
+}
+p, .fas {
+  color: #614fff;
+}
+i{
+  margin: 0 20px;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.fas{
+  font-size: 3em;
+}
+.condition{
+  margin-top: 5px;
+  font-weight: 100;
+  font-size: 1.2em;
+}
+
+ul {
+  color: #614fff;
+  list-style: none;
+}
+
+/* */
+/* Condition Colors */
+/* */
+
+
+.thunder{
+  color: yellow;
+}
+.drizzle{
+  color: lightblue;
+}
+.rain{
+  color: darkblue;
+}
+.snow{
+  color: silver;
+}
+.clear{
+  color: orange;
+}
+.cloud{
+  color: grey;
+}
+.error{
+  color: red;
+}
+.hazard{
+  color: greenyellow;
+}
+.hazard{
+  color: rgb(241, 163, 255);
+}
